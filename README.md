@@ -1,3 +1,3 @@
 # Portfolio
 
-hello this is
+hello this is my portfolio.
