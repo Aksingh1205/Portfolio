@@ -9,6 +9,7 @@ import Target from "../components/Target.jsx"
 import ReactLogo from "../components/ReactLogo.jsx"
 import Cube from "../components/Cube.jsx"
 import Rings from "../components/Rings.jsx"
+import HeroCamera from "../components/HeroCamera.jsx"
 
 const Hero = () => {
 
@@ -31,12 +32,13 @@ const Hero = () => {
           <Canvas className="w-full h-full">
             <Suspense fallback={<CanvasLoader/>}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
-
-            <HackerRoom 
-              position={sizes.deskPosition} 
-              rotation={[0, -Math.PI, 0]}
-              scale= {sizes.deskScale}
-            />
+            <HeroCamera isMobile={isMobile}>
+              <HackerRoom 
+                position={sizes.deskPosition} 
+                rotation={[0, -Math.PI, 0]}
+                scale= {sizes.deskScale}
+              />
+            </HeroCamera>
 
             <group>
               <Target position={sizes.targetPosition}/>
