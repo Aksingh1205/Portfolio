@@ -1,13 +1,33 @@
 import { Canvas } from "@react-three/fiber";
 import { myProjects } from "../constants"
 import { Center, OrbitControls } from "@react-three/drei";
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import CanvasLoader from "../components/CanvasLoader";
 import DemoComputer from '../components/DemoComputer.jsx';
+import { useGSAP } from "@gsap/react";
+import gsap from 'gsap';
+
+const projectCount = myProjects.length;
 
 const Projects = () => {
+  const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
 
-  const currentProject = myProjects[0];
+  const handleNavigation = (direction) => {
+    setSelectedProjectIndex((prevIndex) => {
+      if (direction === 'previous') {
+        return prevIndex === 0 ? projectCount - 1 : prevIndex - 1;
+      } else {
+        return prevIndex === projectCount - 1 ? 0 : prevIndex + 1;
+      }
+    });
+  };
+
+  useGSAP(() => {
+    gsap.fromTo(`.animatedText`, { opacity: 0 }, { opacity: 1, duration: 1, stagger: 0.2, ease: 'power2.inOut' });
+  }, [selectedProjectIndex]);
+
+  const currentProject = myProjects[selectedProjectIndex];
+
   return (
     <section className="c-space my-20">
         <p className="head-text">My Selected Projects</p>
