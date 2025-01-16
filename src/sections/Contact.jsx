@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 const Contact = () => {
 
@@ -9,6 +9,8 @@ const Contact = () => {
         email: '',
         message: '',
     });
+
+    const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
