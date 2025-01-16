@@ -9,7 +9,17 @@ const Contact = () => {
         email: '',
         message: '',
     });
-    
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setForm({ ...form, [name]: value });            
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(form);
+    };  
+
   return (
     <section className="c-space my-20">
         <div className="relative min-h-screen flex items-center justify-center flex-col">
