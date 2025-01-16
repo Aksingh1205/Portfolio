@@ -12,14 +12,12 @@ const Contact = () => {
 
     const [loading, setLoading] = useState(false);
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
+    const handleChange = ({ target: { name, value }}) => {
         setForm({ ...form, [name]: value });            
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(form);
     };  
 
   return (
