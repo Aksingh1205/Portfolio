@@ -43,6 +43,9 @@ const Contact = () => {
                     <span className="field-label">Your message</span>
                     <textarea type="text" name="message" value={form.message} onChange={handleChange} className="field-input" required rows={5}   placeholder="Hi, I'm interested in..."/>
                 </label>
+                <button type="submit" className="field-btn" disabled={loading}>{loading ? 'Sending...' : 'Send Message'}
+                    <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
+                </button> 
             </form>
         </div>
         </div>
