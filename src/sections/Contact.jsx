@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
@@ -16,8 +17,28 @@ const Contact = () => {
         setForm({ ...form, [name]: value });            
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async(e) => {
         e.preventDefault();
+        setLoading(true);
+        try {
+            await emailjs.send(
+                'service_i43uhnn',
+                'template_afatnkm',
+                {
+                    from_name: form.name,
+                    to_name: 'Arpit',
+                    from_email: form.email,
+                    to_email: 'arpitkumarsingh1205@gmail.com',
+                    message: form.message,
+                })
+            setLoading(false);
+            alert('Message sent successfully');            
+        }
+        catch (error) {
+            setLoading(false);
+            console.log(error);
+            alert('An error occurred, Please try again later');
+        }
     };  
 
     //service_i43uhnn
