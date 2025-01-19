@@ -154,6 +154,12 @@ body {
   }
 }
 
+a.twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .waving-hand {
   animation-name: wave-animation;
   animation-duration: 2.5s;

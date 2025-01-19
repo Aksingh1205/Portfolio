@@ -11,17 +11,19 @@ const Footer = () => {
 
         <div className="flex gap-3">
         <div className="social-icon">
-          <a href="https://github.com/Aksingh1205" target="_blank">
+          <a href="https://github.com/Aksingh1205" target="_blank" className='twitter' >
           <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" align="center"/>
           </a>
         </div>
         <div className="social-icon">
-          <a href="https://twitter.com/arpitksingh" target="_blank">
+          <a href="https://x.com/Arpit_Singh12" target="_blank" className='twitter'>
           <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
           </a>
         </div>
         <div className="social-icon2">
-          <img src="/assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2" />
+          <a href="https://www.linkedin.com/in/arpit-kumar-singh-1a2126202/" target="_blank" className='twitter'>
+          <img src="/assets/linkedin2.svg" alt="linkedin" className="w-1/2 h-1/2" />
+          </a>
         </div>
       </div>
 
