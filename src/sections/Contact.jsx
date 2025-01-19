@@ -34,7 +34,8 @@ const Contact = () => {
                 '-G1RqJuaPARdOGm4o'
             )
             setLoading(false);
-            alert('Message sent successfully');            
+            alert('Message sent successfully');
+            setForm({ name: '', email: '', message: '' });
         }
         catch (error) {
             setLoading(false);
