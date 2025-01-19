@@ -23,14 +23,16 @@ const Contact = () => {
         try {
             await emailjs.send(
                 'service_i43uhnn',
-                'template_afatnkm',
+                'template_x5f26lj',
                 {
                     from_name: form.name,
                     to_name: 'Arpit',
                     from_email: form.email,
                     to_email: 'arpitkumarsingh1205@gmail.com',
                     message: form.message,
-                })
+                },
+                '-G1RqJuaPARdOGm4o'
+            )
             setLoading(false);
             alert('Message sent successfully');            
         }
