@@ -1,9 +1,12 @@
 import { OrbitControls } from "@react-three/drei"
-import { Suspense } from "react"
+import { Suspense, useState } from "react"
 import CanvasLoader from "../components/CanvasLoader"
 import { Canvas } from "@react-three/fiber"
+import { workExperiences } from "../constants"
+import Developer from "../components/Developer"
 
 const Experience = () => {
+    const [animationName, setAnimationName] = useState('idle');
   return (
     <section className="c-space my-20" id="work">
         <div className="w-full text-white-600">
