@@ -1,2 +1,2 @@
 Hello Folks,
-This is my portfoli
+This is my portfolio
