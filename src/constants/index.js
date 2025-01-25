@@ -255,10 +255,10 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
-      duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+      name: 'iNeuBytes',
+      pos: 'Web Developer Intern',
+      duration: 'Jun 2023 - July 2023',
+      title: " In-depth understanding of web development concepts, including gaining hands-on experience building dynamic websites and web applications",
       icon: '/assets/framer.svg',
       animation: 'victory',
     },
