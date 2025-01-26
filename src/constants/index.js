@@ -62,7 +62,7 @@ export const navLinks = [
       desc: 'PivotPoint is a platform inspired by Y Combinator, designed to connect startup founders with potential investors, collaborators, and mentors.',
       subdesc:
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      href: 'https://pivotpoint.vercel.app/',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
