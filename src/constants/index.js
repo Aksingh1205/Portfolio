@@ -64,7 +64,7 @@ export const navLinks = [
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
       href: 'https://pivotpoint.vercel.app/',
       texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      logo: '/assets/project-logo11.png',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
@@ -259,7 +259,7 @@ export const navLinks = [
       pos: 'Web Developer Intern',
       duration: 'Jun 2023 - July 2023',
       title: " In-depth understanding of web development concepts, including gaining hands-on experience building dynamic websites and web applications",
-      icon: '/assets/framer.svg',
+      icon: '/assets/iNeubytes.png',
       animation: 'victory',
     },
     {
@@ -268,7 +268,7 @@ export const navLinks = [
       pos: 'Accenture UK - Developer and Technology Job Simulation',
       duration: 'Dec 2024',
       title: "Completed the Developer and Technology Job Simulation where I developed an end to end understanding of the Software Development Lifecycle.",
-      icon: '/assets/figma.svg',
+      icon: '/assets/forage1.png',
       animation: 'clapping',
     },
     {
@@ -277,7 +277,7 @@ export const navLinks = [
       pos: 'TATA Group - Data Visualisation: Empowering Business with Effective Insights',
       duration: 'Dec 2024',
       title: "Completed a simulation involving creating data visualizations for Tata Consultancy Services. Prepared questions for a meeting with client senior leadership. Created visuals for data analysis to help executives with effective decision making.",
-      icon: '/assets/notion.svg',
+      icon: '/assets/forage1.png',
       animation: 'salute',
     },
   ];
