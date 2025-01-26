@@ -264,8 +264,8 @@ export const navLinks = [
     },
     {
       id: 2,
-      name: 'Accenture UK',
-      pos: 'Developer and Technology Job Simulation',
+      name: 'Forage',
+      pos: 'Accenture UK - Developer and Technology Job Simulation',
       duration: 'Dec 2024',
       title: "Completed the Developer and Technology Job Simulation where I developed an end to end understanding of the Software Development Lifecycle.",
       icon: '/assets/figma.svg',
@@ -273,8 +273,8 @@ export const navLinks = [
     },
     {
       id: 3,
-      name: 'TATA Group',
-      pos: 'Data Visualisation: Empowering Business with Effective Insights',
+      name: 'Forage',
+      pos: 'TATA Group - Data Visualisation: Empowering Business with Effective Insights',
       duration: 'Dec 2024',
       title: "Completed a simulation involving creating data visualizations for Tata Consultancy Services. Prepared questions for a meeting with client senior leadership. Created visuals for data analysis to help executives with effective decision making.",
       icon: '/assets/notion.svg',
