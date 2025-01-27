@@ -64,7 +64,7 @@ export const navLinks = [
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
       href: 'https://pivotpoint.vercel.app/',
       texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo11.png',
+      logo: '/assets/favicon.ico',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
