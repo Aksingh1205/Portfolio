@@ -63,7 +63,7 @@ export const navLinks = [
       subdesc:
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
       href: 'https://pivotpoint.vercel.app/',
-      texture: '/textures/project/project1.mp4',
+      texture: '/textures/project/pivotpoint.mp4',
       logo: '/assets/favicon.ico',
       logoStyle: {
         backgroundColor: '#2A1816',
@@ -95,7 +95,7 @@ export const navLinks = [
       subdesc:
         'The platform allows creators to sign up, generate unique Insights links, and receive Insights from users anonymously without requiring them to sign up.',
       href: 'https://true-insights.vercel.app/',
-      texture: '/textures/project/project2.mp4',
+      texture: '/textures/project/true-insights.mp4',
       logo: '/assets/truelogo1.png',
       logoStyle: {
         backgroundColor: '#13202F',
@@ -127,7 +127,7 @@ export const navLinks = [
       subdesc:
         'My first nextJs project which is purely frontend based with some cool animations added by tailwind. Leveraging the advanced capabilities of Next.js 14, the platform ensures lightning-fast performance, server-side rendering, and scalability.',
       href: 'https://musicnextjs-murex.vercel.app/',
-      texture: '/textures/project/project3.mp4',
+      texture: '/textures/project/music.mp4',
       logo: '/assets/musiclogo.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -161,7 +161,7 @@ export const navLinks = [
       subdesc:
         'I am currently working on a few exciting projects that I can’t wait to share with you. Check back soon for more updates!',
       href: '',
-      texture: '',
+      texture: '/textures/project/soon.mp4',
       logo: '/assets/soonlogo.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
