@@ -90,13 +90,13 @@ export const navLinks = [
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'True Insights',
+      desc: 'True Insights is a streamlined web-based platform designed for creators to effortlessly collect anonymous Insights.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        'The platform allows creators to sign up, generate unique Insights links, and receive Insights from users anonymously without requiring them to sign up.',
+      href: 'https://true-insights.vercel.app/',
       texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+      logo: '/assets/truelogo1.png',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -119,21 +119,16 @@ export const navLinks = [
           name: 'TypeScript',
           path: '/assets/typescript.png',
         },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Musify',
+      desc: 'A cutting-edge Music Academy platform built with Next.js 14, designed to provide a seamless and responsive experience for music enthusiasts.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'My first nextJs project which is purely frontend based with some cool animations added by tailwind.',
+      href: 'https://musicnextjs-murex.vercel.app/',
       texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      logo: '/assets/musiclogo.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -157,11 +152,6 @@ export const navLinks = [
           id: 3,
           name: 'TypeScript',
           path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
         },
       ],
     },
