@@ -125,7 +125,7 @@ export const navLinks = [
       title: 'Musify',
       desc: 'A cutting-edge Music Academy platform built with Next.js 14, designed to provide a seamless and responsive experience for music enthusiasts.',
       subdesc:
-        'My first nextJs project which is purely frontend based with some cool animations added by tailwind.',
+        'My first nextJs project which is purely frontend based with some cool animations added by tailwind. Leveraging the advanced capabilities of Next.js 14, the platform ensures lightning-fast performance, server-side rendering, and scalability.',
       href: 'https://musicnextjs-murex.vercel.app/',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/musiclogo.png',
